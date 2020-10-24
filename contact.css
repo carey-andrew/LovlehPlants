@@ -1,3 +1,11 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
     font-family: 'Libre Baskerville', serif;
 }
@@ -24,3 +32,13 @@ p {
     flex: 1;  
     /*flex-basis: 100%;*/
   }
+
+.gmap_canvas {
+    border: black solid 2px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
