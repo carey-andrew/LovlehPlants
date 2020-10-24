@@ -15,12 +15,16 @@ p {
     list-style-type: none;
 }
 
-.search {  
+.search {
     flex: 1;
-    order: 1;  
-  }
+    order: 1;
+}
 
-  .container > li {  
-    flex: 1;  
+.container > li {
+    flex: 1;
     /*flex-basis: 100%;*/
-  }
+}
+
+.gardencentre {
+    border: solid 2px black;
+}
