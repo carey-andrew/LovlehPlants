@@ -61,3 +61,20 @@ a {
 a:hover {
     cursor: pointer;
 }
+
+.inputfield {
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  .btn {
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+  }
+  
+  .btn:hover {
+    background-color: black; 
+    color: white;
+  }
