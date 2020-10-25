@@ -11,6 +11,8 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* We chose these fonts as they are clear and friendly to look at without being too distracting for the viewer. */
+
 .container {
     display: flex;
     flex-wrap: wrap;
