@@ -32,6 +32,8 @@ p {
     border-radius: 10px;
 }
 
+/* The lovely green colour was chosen as it in keeping with the central topic of the website, plants. It also contrasts really well with the white background making it accessible and user friendly. */
+
 a {
     color: #12b06d;
     background-color: white;
@@ -43,3 +45,5 @@ a {
 a:hover {
     cursor: pointer;
 }
+
+/* The hover effect we chose as it adds user interaction to a static site and makes it more interesting to navigate and use. */
