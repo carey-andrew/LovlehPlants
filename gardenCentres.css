@@ -38,3 +38,7 @@ a:hover {
 .gardencentre {
   border: solid 2px black;
 }
+
+ul {
+  margin: 20px 0;
+}
