@@ -1,52 +1,40 @@
 body {
-    max-width: 90vw;
-    margin: 0 auto;
+  max-width: 90vw;
+  margin: 0 auto;
 }
 
 h1 {
-    font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /* We chose these fonts as they are clear and friendly to look at without being too distracting for the viewer. */
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Source Sans Pro', sans-serif;
-    list-style-type: none;
-    margin: 10px;
-    padding: 15px;
-    padding-left: 30px;
-    background-color: #14c97d;
-    border-radius: 10px;
-}
-
 a {
-    color: #12b06d;
-    background-color: white;
-    padding: 10px;
-    border-radius: 15px;
-    text-decoration: none;
+  color: #12b06d;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
 }
 
 a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .search {
-    flex: 1;
-    order: 1;
+  flex: 1;
+  order: 1;
 }
 
 .container > li {
-    flex: 1;
-    /*flex-basis: 100%;*/
+  flex: 1;
+  /*flex-basis: 100%;*/
 }
 
 .gardencentre {
-    border: solid 2px black;
+  border: solid 2px black;
 }

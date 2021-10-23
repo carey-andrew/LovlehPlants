@@ -1,49 +1,32 @@
 body {
-    max-width: 90vw;
-    margin: 0 auto;
+  max-width: 90vw;
+  margin: 0 auto;
 }
 h1 {
-    font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .search {
-    flex: 1;
-    order: 1;
-}
-
-.container > li {
-    flex: 1;
-    /*flex-basis: 100%;*/
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Source Sans Pro', sans-serif;
-    list-style-type: none;
-    margin: 10px;
-    padding: 15px;
-    padding-left: 30px;
-    background-color: #14c97d;
-    border-radius: 10px;
+  flex: 1;
+  order: 1;
 }
 
 /* The lovely green colour was chosen as it in keeping with the central topic of the website, plants. It also contrasts really well with the white background making it accessible and user friendly. */
 
 a {
-    color: #12b06d;
-    background-color: white;
-    padding: 10px;
-    border-radius: 15px;
-    text-decoration: none;
+  color: #12b06d;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
 }
 
 a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* The hover effect we chose as it adds user interaction to a static site and makes it more interesting to navigate and use. */
