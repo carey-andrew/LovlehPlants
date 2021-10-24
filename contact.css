@@ -1,84 +1,101 @@
 body {
-    max-width: 90vw;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  max-width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
-    width: 90vw;
+  width: 90vw;
 }
 
 h1 {
-    font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
+  margin: 2rem 0;
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
+li {
+  font-family: "Libre Baskerville", serif;
+  /* font-family: "Source Sans Pro"; */
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin: 2rem 0;
+}
 .search {
-    flex: 1;
-    order: 1;
+  flex: 1;
+  order: 1;
 }
 
 .container > li {
-    flex: 1;
-    /*flex-basis: 100%;*/
+  flex: 1;
+  /*flex-basis: 100%;*/
 }
 
 .gmap_canvas {
-    border: black solid 2px;
+  border: black solid 2px;
 }
 
 .image-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Source Sans Pro', sans-serif;
-    list-style-type: none;
-    margin: 10px;
-    padding: 15px;
-    padding-left: 30px;
-    background-color: #14c97d;
-    border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Source Sans Pro", sans-serif;
+  list-style-type: none;
+  margin: 10px;
+  padding: 15px;
+  padding-left: 30px;
+  background-color: #14c97d;
+  border-radius: 10px;
 }
 
 /* We used flexbox to organise our CSS as it aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic  */
 
 a {
-    color: #12b06d;
-    background-color: white;
-    padding: 10px;
-    border-radius: 15px;
-    text-decoration: none;
+  color: #12b06d;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
 }
 
 a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .inputfield {
-    width: 100%;
-    border-radius: 25px;
-  }
+  width: 100%;
+  border-radius: 25px;
+}
 
-  .btn {
-    transition-duration: 0.4s;
-    border-radius: 5px;
-    height: 50px;
-    width: 100px;
-  }
-  
-  /* The transition on this button was added to encourage user interaction and make the contact form more dynamic. */
+.btn {
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+}
 
-  .btn:hover {
-    background-color: black; 
-    color: white;
-  }
+/* The transition on this button was added to encourage user interaction and make the contact form more dynamic. */
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.hot-div {
+  background-color: pink;
+  padding: 2rem;
+}
+.cold-div {
+  background-color: lightblue;
+  padding: 2rem;
+}
